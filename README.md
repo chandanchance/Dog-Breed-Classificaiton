@@ -114,3 +114,25 @@ When you are ready to submit your project, collect the following files and compr
 - Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `dogImages/` or `lfw/` folders.  Likewise, please do not include the `bottleneck_features/` folder.__
 
 Alternatively, your submission could consist of the GitHub link to your repository.
+
+## Project Report
+
+I found this to be a meaningful project on extention. When there is a snake bite in to treat the victim, the snake should be known. Normally people who have high knowledge on snakes are called and asked if it is poisious or not. If it is poisonous then which snake is that needs to be know. Unfortunately, we can not relay on this method everywhere and everytime. I hope if dog breed classificaiton is applied to snakes and uploaded as an android app, this would  be of great help.
+
+Here, we first check if the image which is input is of an human or a dog, if dog we need to find out the dog breed. If its a human then we can say which dog the human resembles.
+
+# Project in brief:
+
+1. Input data : 
+
+There are 133 total dog categories.
+
+There are 8351 total dog images.
+
+There are 6680 training dog images.
+
+There are 835 validation dog images.
+
+There are 836 test dog images.
+
+2. 
