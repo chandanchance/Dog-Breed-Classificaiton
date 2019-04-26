@@ -135,4 +135,35 @@ There are 835 validation dog images.
 
 There are 836 test dog images.
 
-2. 
+2. There are 13233 total human images.
+
+3.  We convertthe images to grey scale and use Haar feature-based cascade classifiers to classify if its a human or not
+	This step classifies 11% of the first 100 dog images as human
+
+4. We implement dog detector using ResNet. This classifies all dogs as dogs and none among the humans as dogs (With first 100 images)
+
+5. CNN is used to classify the breed of the dog ( Architecture is as above )
+	- During the reading of train images, few image paths were giving errors so those are neglected and 6386 images are used to 		  train the NeuralNet 
+	- Accuracy was very low
+	
+6. We used VGG16_model to classify the breed.
+	- Though the accuracy has been increased, the accuracy is not upto the real world use.
+	
+7. Xception was used which gave satisfactory results.
+
+8. Algorithm is built:
+	- Check if its a dog (using dog detector)
+	- If so predict the dog breed
+	- If not print its a human and detect the resembalance
+
+All the models are trained and tested.
+
+Further improvement:
+
+- Data augmentation
+
+- Exploring even more models
+
+- Exploring by tuning the parameters
+
+- using more images for training
