@@ -123,6 +123,8 @@ Here, we first check if the image which is input is of an human or a dog, if dog
 
 # Project in brief:
 
+BLOG : https://medium.com/@chandanchandu32/dog-breed-classification-on-extension-can-save-peoples-life-c903ce82c0e8
+
 1. Input data : 
 
 There are 133 total dog categories.
